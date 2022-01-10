@@ -43,8 +43,6 @@ Selection.Copy
 
 hell = "H" & i
 
-'OLHAR ESSA ENTRADA DE G14!
-
 Range("G14", hell).Select
 Selection.SpecialCells(xlCellTypeVisible).Select
 Selection.PasteSpecial Paste:=xlPasteFormulas, Operation:=xlNone, _
